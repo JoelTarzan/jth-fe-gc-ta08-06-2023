@@ -1,0 +1,26 @@
+.calc-button {
+    background-color: cornflowerblue;
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.calc-button:hover {
+    background-color: rgb(55, 92, 161);
+}
+
+.calc-result {
+    background-color: black;
+    height: 3rem;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 2rem;
+}
