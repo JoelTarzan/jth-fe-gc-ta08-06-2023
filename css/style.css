@@ -13,14 +13,13 @@
     background-color: rgb(55, 92, 161);
 }
 
-.calc-result {
+#calc-screen {
     background-color: black;
     height: 3rem;
     color: white;
     padding: 2rem 1rem;
-    text-align: right;
     display: flex;
-    justify-content: end;
     align-items: center;
+    justify-content: end;
     font-size: 2rem;
 }

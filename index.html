@@ -16,7 +16,7 @@
 
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center mt-5 mb-1">
-                <div class="col-5 calc-result" id="calc-result-div"></div>
+                <div class="col-5" id="calc-screen"></div>
             </div>
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-1 calc-button m-1" id="btn-1" onclick="appendValue('1')">1</div>
@@ -39,8 +39,8 @@
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-1 calc-button m-1" id="btn-0" onclick="appendValue('0')">0</div>
                 <div class="col-1 calc-button m-1" id="btn-." onclick="appendValue('.')">.</div>
-                <div class="col-1 calc-button m-1" id="btn-C" onclick="clearResult()">C</div>
-                <div class="col-1 calc-button m-1" id="btn-=" onclick="calculateResult()">=</div>
+                <div class="col-1 calc-button m-1" id="btn-C" onclick="clearScreen()">C</div>
+                <div class="col-1 calc-button m-1" id="btn-=" onclick="calculate()">=</div>
             </div>
         </div>
 
